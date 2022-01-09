@@ -1,5 +1,6 @@
 # Credit Risk Analysis Using Python Machine Learning
 Credit Risk using supervised machine learning approaches for an imbalanced dataset
+
 ## Overview
 Using a dataset from a peer to peer lending group called LendingClub, it was desired to predict credit risk. The dataset is an imbalanced set due to the large number of low risk records as compared to high risk.  Several approaches can be taken on this type of imbalanced data.  Such approaches as undersampling the low risk records or oversampling the high risk records for the training set are evaluated.  In addition, algorithms designed specifically for imbalanced datasets are also leveraged.
 
@@ -12,5 +13,9 @@ As seen in the table below, four oversampling and under sampling techniques were
 ![alt text](https://github.com/jj2773/Credit_Risk_Analysis/blob/main/summary_table.PNG)
 
 
-## Summary
 
+## Summary
+As explained in the confusion matrix graphic below, the recall is 91% which means that this algorithm predicted 91% of the actual high risk loans. All algorithms showed poor performance in precision which means that the number of false positive is very high.  Although the Adaboost performed the best an approach to address the false positives is needed.
+
+
+![alt text](https://github.com/jj2773/Credit_Risk_Analysis/blob/main/confusion_matrix.PNG)
