@@ -15,7 +15,7 @@ As seen in the table below, four oversampling and under sampling techniques were
 
 
 ## Summary
-As explained in the confusion matrix graphic below, the recall is 91% which means that this algorithm predicted 91% of the actual high risk loans. All algorithms showed poor performance in precision which means that the number of false positive is very high.  Although the Adaboost performed the best an approach to address the false positives is needed.
+As explained in the confusion matrix graphic below, the recall is 91% which means that the adaboost algorithm predicted 91% of the actual high risk loans. All algorithms showed poor performance in precision which means that the number of false positive is very high.  Although the Adaboost performed the best an approach to address the false positives is needed.
 
 
 ![alt text](https://github.com/jj2773/Credit_Risk_Analysis/blob/main/confusion_matrix.PNG)
